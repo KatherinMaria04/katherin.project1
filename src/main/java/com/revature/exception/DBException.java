@@ -1,12 +1,12 @@
-package com.revature.DBexception;
+package com.revature.exception;
 
 public class DBException extends Exception{
 	public DBException(String message) {
 		super(message);
 	}
-	
-	public void DBException(String message, Throwable t) {
+	public DBException(String message, Throwable t) {
 		super(message,t);
 	}
-
+	
+	
 }
